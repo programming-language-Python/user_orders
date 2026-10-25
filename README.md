@@ -14,7 +14,7 @@
 
 1. Клонирование репозитория
 ```cmd
-https://github.com/programming-language-Python/user_orders.git
+git clone https://github.com/programming-language-Python/user_orders.git
 ```
 
 2.
