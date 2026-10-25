@@ -23,16 +23,18 @@ cd user_orders
 ```
 3.
 ```cmd
-pip install -r requirements.txt
-```
-4.
-```cmd
 python -m venv venv
 ```
 
 ```cmd
 .\venv\Scripts\activate
 ```
+
+4.
+```cmd
+pip install -r requirements.txt
+```
+
 5. Переименовать .env.example в .env и заполнить файл данными для подключения к PostgreSQL
 6. Ввести в консоли
 ```cmd
