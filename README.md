@@ -7,8 +7,7 @@
 - faker
 
 # Демонстрация работы
-[![Миниатюра](https://raw.githubusercontent.com/rom1987/user_orders/main/path/to/thumbnail.jpg)](https://raw.githubusercontent.com/rom1987/user_orders/main/video.mp4)
-
+[Демонстрация работы.mp4](%D0%94%D0%B5%D0%BC%D0%BE%D0%BD%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B.mp4)
 
 # Запуск
 Ввести команды в консоли
