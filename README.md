@@ -12,15 +12,20 @@
 # Запуск
 Ввести команды в консоли
 
-1. 
+1. Клонирование репозитория
+```cmd
+https://github.com/programming-language-Python/user_orders.git
+```
+
+2.
 ```cmd
 cd user_orders
 ```
-2. 
+3.
 ```cmd
 pip install -r requirements.txt
 ```
-3.
+4.
 ```cmd
 python -m venv venv
 ```
@@ -28,20 +33,20 @@ python -m venv venv
 ```cmd
 .\venv\Scripts\activate
 ```
-4. Переименовать .env.example в .env и заполнить файл данными для подключения к PostgreSQL
-5. Ввести в консоли
+5. Переименовать .env.example в .env и заполнить файл данными для подключения к PostgreSQL
+6. Ввести в консоли
 ```cmd
 alembic upgrade head
 ```
-6. Запустить файл для заполнения тестовыми данными БД
+7. Запустить файл для заполнения тестовыми данными БД
 ```cmd
 python src/db/fill_db.py
 ```
-7.
+8.
 ```cmd
 python main.py
 ```
-8. Перейти по адресу http://127.0.0.1:8000/docs#/
+9. Перейти по адресу http://127.0.0.1:8000/docs#/
 
 # Условие задания
 Есть две SQL таблицы (users и orders) со следующими полями:
